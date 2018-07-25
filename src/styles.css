@@ -44,6 +44,7 @@
     .prop-img {
         width: 100%;
     }
+
 }
 
 .contact {
@@ -54,6 +55,7 @@
 #contact-img {
     max-height: 400px;
     max-width: 250px;
+    float: right;
 }
 
 .contact-header {
@@ -180,8 +182,8 @@
 
 .table {
     border: 1px solid black;
-    width: 100%;
-    justify-content: center;
+    width: 90%;
+    text-align: center;
     border-collapse: collapse;
 }
 
@@ -227,11 +229,33 @@
 
 .temp-header {
     font-size: 24px;
-    text-align: start;
+    margin: 10px;
+    margin-left: 50px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 200px;
+    }
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+}
+
+
 .template-img {
-    object-fit: contain;
+    width: 300px;
 }
 
 .past-template-img {
@@ -242,16 +266,13 @@
 .temp-list {
     font-size: 16px;
     color: #515151;
-}
-
-.template-img {
-    width: 100%
+    margin-left: 50px;
 }
 
 .past-img {
     max-width: 100%;
-    max-height: 500px;
-    object-fit: contain
+    height: 500px;
+    object-fit: contain;
 }
 
 .backdrop-img {
