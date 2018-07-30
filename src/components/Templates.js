@@ -13,7 +13,8 @@ class Templates extends React.Component {
     render() {
         return (
             <div className="templates">
-                <SimpleMenu />
+                <header className="title">MUGSHOT PHOTOBOOTH</header>
+                <SimpleMenu className="menu"/>
                 <p className="temp-header"> TEMPLATES </p>
                     <span className="temp-body">Your photo strips are completely customizable to make your event as fit to you as possible. 
                         (Note that if you'd like me to choose the design for you, we can do that as well.)  On this page you can see all 

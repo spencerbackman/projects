@@ -6,7 +6,8 @@ class Faqs extends React.Component {
     render() {
         return (
             <div className="faqs">
-                <SimpleMenu />
+                <header className="title">MUGSHOT PHOTOBOOTH</header>
+                <SimpleMenu className="menu"/>
                 <p className="faq-header"> FREQUENTLY ASKED QUESTIONS </p>
                 <ul className="faq-list">
                     <li className="question"> HOW MUCH SPACE DOES THE BOOTH TAKE UP? </li>

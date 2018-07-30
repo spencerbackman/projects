@@ -5,7 +5,8 @@ class Pricing extends React.Component {
     render() {
         return (
             <div className="pricing">
-                <SimpleMenu />
+                <header className="title">MUGSHOT PHOTOBOOTH</header>
+                <SimpleMenu className="menu" />
                 <p className="pricing-header">  
                     PACKAGES & PRICING
                 </p>

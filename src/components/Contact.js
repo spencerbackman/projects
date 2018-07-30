@@ -6,7 +6,8 @@ class Contact extends React.Component {
     render() {
         return (
             <div className="contact">
-                <SimpleMenu />
+                <header className="title">MUGSHOT PHOTOBOOTH</header>
+                <SimpleMenu className="menu" />
                 
                 <p className="contact-header"> CONTACT </p>
                 <p className="contact-body" id="contact-main">Here you can send me a direct message. Feel free to contact me with 
@@ -17,7 +18,7 @@ class Contact extends React.Component {
                 <p className="contact-info"> MUGSHOT PHOTOBOOTH </p>
                 <p className="contact-info"> Based in Salt Lake City & Utah County, UT </p>
                 <p className="contact-info"> mugshotphotoslc@gmail.com </p>
-                <p className="contact-info"> (385)268-8877 Call or Text </p>
+                <p className="contact-info"> (385) 268-8877 Call or Text </p>
                 <p className="contact-info"> Facebook & Instagram: </p>
                 <p className="contact-info"> @mugshotphotoslc </p>
                 <br/>

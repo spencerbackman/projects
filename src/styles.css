@@ -1,19 +1,38 @@
 *{
-    font-family: 'Muli', sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
-.home {
-    width: 80%;
-    margin-left: 10%;
+.menu {
+    margin-left: 15%;
+}
+
+.title {
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .home-header {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
    font-size: 23px;
+
 }
 
 .home-body {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
     font-size: 17px;
-    color: #515151
+    color: #515151;
+}
+
+.home-img {
+    width: 90%;
+    margin-left: 5%;
+    max-height: 200px;
 }
 
 .backdrop {
@@ -21,13 +40,10 @@
     margin-left: 10%
 }
 
-.back-header {
-    font-size: 23px;
-}
 
 .back-body {
-    font-size: 17px;
-    color: #515151
+    font-size: 15px;
+    color: #515151;
 }
 
 .backdrop-img {
@@ -37,10 +53,11 @@
 
 .prop-img {
     width: 250px;
-    height: 250px;
+    height: 200px;
 }
 
-@media only screen and (max-width: 650px) {
+
+@media only screen and (max-width: 450px) {
     .prop-img {
         width: 100%;
     }
@@ -233,29 +250,38 @@
     margin-left: 50px;
 }
 
-@media only screen and (max-width: 1000px) {
-    .image {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 200px;
+/* @media only screen and (max-width: 1000px) {
+    .container {
+        display: block;
     }
-}
+    .image {
+        width: 33%;
+        height: 150px;
+    }
+
+    .temp-header {
+        display: block;
+        width: 33%;
+    }
+
+    .temp-list {
+        width: 33%;
+        display: block;
+    }
+} */
 
 .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 200px;
 }
 
-.image {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 200px;
-}
+
 
 
 .template-img {
-    width: 300px;
+    max-width: 175px;
+    margin: none;
+    display: inline-block;
 }
 
 .past-template-img {
